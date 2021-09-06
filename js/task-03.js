@@ -23,8 +23,8 @@ const createGallery = images.map(image => {
 
 gallery.insertAdjacentHTML('afterbegin', createGallery.join(''));
 
-gallery.style.listStyle = `none`;
+gallery.style.listStyle = 'none';
 gallery.style.marginTop = '30px';
 gallery.style.padding = '0';
-gallery.style.display = `flex`;
-gallery.style.justifyContent = `space-around`;
+gallery.style.display = 'flex';
+gallery.style.justifyContent = 'space-around';
